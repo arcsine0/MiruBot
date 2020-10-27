@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    
+}
+#body {
+    background-color: rgb(8, 10, 37);
+}
+#titleName {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+#titleDesc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+}
+#fileUpload {
+    width: 50%;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+    margin: 10px auto 10px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+.memberName {
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 10px;
+    border: black 2px solid;
+    border-radius: 20px;
+    background-color: rgb(0, 228, 140);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    user-select: none;
+}
+.scoreBox {
+    border: rgb(214, 214, 214) 5px solid;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    margin-bottom: 10px;
+    display: grid;
+}
+.score {
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+}
+.appTable {
+    width: 100%;
+    color: white;
+    display: none;
+}
+table {
+    border-collapse: separate;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+td, th {
+    padding: 0.5rem;
+    
+}
+th {
+    background-color: rgb(0, 150, 92);
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 20px;
+}
+td {
+    background-color: rgb(0, 95, 59);
+    border-radius: 15px 15px 15px 15px;
+    margin: 1rem;
+}

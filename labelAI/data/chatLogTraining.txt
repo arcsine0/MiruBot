@@ -1,0 +1,55 @@
+_label_test this is a test run
+_label_test i am currently running a test
+_label_test mic test hello?
+_label_test end of current test
+_label_present i am present
+_label_present present po mam
+_label_present present po sir
+_label_present goodmorning present po
+_label_present present po sorry late
+_label_present im here
+_label_present i am here po sir
+_label_introduction hello my name is
+_label_introduction i am from 
+_label_introduction you can call me
+_label_greeting goodmorning sir
+_label_greeting good morning
+_label_greeting goodafternoon po mam
+_label_greeting have a nice day!
+_label_affirmation okay sir
+_label_affirmation oki po 
+_label_affirmation ok ok
+_label_affirmation tama po 
+_label_affirmation yes sir
+_label_affirmation yes po mam
+_label_affirmation i agree
+_label_affirmation i do agree on that notion
+_label_affirmation i have the same opinion
+_label_affirmation yup same
+_label_affirmation kinda true
+_label_affirmation opo
+_label_negation no po sir
+_label_negation no po mam
+_label_negation i disagree
+_label_negation nah
+_label_negation nope
+_label_negation mali po 
+_label_laughReaction HAHAHAHAH
+_label_laughReaction hahahah
+_label_laughReaction haha
+_label_laughReaction so funny sir
+_label_laughReaction that's hilarious
+_label_laughReaction LMAO
+_label_laughReaction LOL 
+_label_PossiblyRelatedFeedback addition is one of the basic operations
+_label_PossiblyRelatedFeedback subtraction is another operation in mathematics
+_label_PossiblyRelatedFeedback well it does make sense scientifically speaking
+_label_PossiblyRelatedFeedback science says that it's not possible
+_label_PossiblyRelatedFeedback most scientists conclude that physics is a naturally occurring concept
+_label_PossiblyRelatedFeedback i heard in the news that something happened last night
+_label_PossiblyRelatedFeedback oh i saw that person in the news before
+_label_PossiblyRelatedFeedback politics politicians theories concepts
+_label_PossiblyRelatedFeedback sorry i am bad at that subject
+_label_PossiblyRelatedFeedback mathematics is pretty difficult for me 
+
+
