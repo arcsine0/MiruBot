@@ -3,21 +3,31 @@ const multer = require('multer');
 const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
+const { Readable } = require('stream');
 
 const { judge } = require('../labelAI/judge');
 
 var router = express.Router();
 
-var storage = multer.diskStorage({
-    destination: function(req, file, cb) {
-        cb(null, path.join(__dirname, '../uploads/'));
-    },
-    filename: function(req, file, cb) {
-        cb(null, 'chatLog' + Date.now() + '.sbv');
-    }
-})
-var upload = multer({ storage: storage });   
+// var storage = multer.diskStorage({
+//     destination: function(req, file, cb) {
+//         cb(null, path.join(__dirname, '../uploads/'));
+//     },
+//     filename: function(req, file, cb) {
+//         cb(null, 'chatLog' + Date.now() + '.sbv');
+//     }
+// })
+var upload = multer({ storage: multer.memoryStorage() });   
 
+function bufferToStream(buffer) {
+    const readableInstanceStream = new Readable({
+        read() {
+            this.push(buffer);
+            this.push(null);
+        }
+    });
+    return readableInstanceStream;
+}
 
 router.get('/', function(req, res, next) {
     res.render('index', { title: 'Chat Analyzer' });
@@ -28,7 +38,7 @@ router.post('/upload', upload.single('logFile'), async function(req, res, next) 
         // read file upload
         var tempArr = [], chatArr = [];
         const rl = readline.createInterface({
-            input: fs.createReadStream(path.join(req.file.path)),
+            input: bufferToStream(req.file.buffer),
             output: process.stdout,
             console: false,
             terminal: false
@@ -52,10 +62,6 @@ router.post('/upload', upload.single('logFile'), async function(req, res, next) 
             let jsonArr = JSON.stringify(judgedArr);
             res.send(jsonArr);
 
-            // remove upload file after use
-            fs.unlink(req.file.path, (err) => {
-                if (err) throw err;
-            });
         });
     } else {
         res.send('NO DATA');
