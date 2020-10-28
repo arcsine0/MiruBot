@@ -19,7 +19,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/', indexRouter);
 
 // create server
-var port = process.env.port || 3000;
 var server = http.createServer(app);
+var host = 'localhost' || '0.0.0.0';
+var port = server.listen(process.env.PORT || 3000);
 
-server.listen(port);
+
+app.listen(port, host);
