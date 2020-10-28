@@ -104,3 +104,13 @@ td {
     border-radius: 15px 15px 15px 15px;
     margin: 1rem;
 }
+
+/* animations */
+.elastic {
+    animation: elastic 1s ease-in-out forwards;
+}
+@keyframes elastic {
+    0% { transform: translateX(-100%); opacity: 0; }
+    40% { transform: translateX(10%); }
+    100% { transform: translateX(0); opacity: 1; }
+} 

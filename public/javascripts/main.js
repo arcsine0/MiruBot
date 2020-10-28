@@ -39,6 +39,7 @@ $(document).ready(function() {
     
         });
     });
+    let addedTab;
     function processMemberData(jsonData) {
         let newName, oldName, memberData, memberIndex = 0, check = false;
         $.each(jsonData, function(i, e) {
@@ -77,8 +78,9 @@ $(document).ready(function() {
         console.log(totalScore);
 
         let memberID = 'member#' + i.toString();
+        addedTab = '#' + memberID;
         let tabElem_1 =
-            `<div class="container memberInfo" id=${memberID}>
+            `<div class="container memberInfo elastic" id=${memberID}>
                 <div class="memberTab row">
                     <div class="memberName col-10">${arr[0][0]}</div>   
                     <div class="scoreBox col-2"><div class="score">${totalScore}pts.</div></div>  
