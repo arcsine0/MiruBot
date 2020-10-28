@@ -5,7 +5,7 @@ $(document).ready(function() {
 
         $('#memberSection').empty();
         $('#uploadStatus').html('...working file');
-        $('#uploadStatus').css('color', 'rgb(252, 255, 58)');
+        $('#uploadStatus').css({'background-color': 'rgb(252, 255, 58)', 'color': 'white'});
 
         // send file to server
         var fileData = new FormData(this);
@@ -18,7 +18,7 @@ $(document).ready(function() {
             success: (data) => {
                 if (data === 'NO DATA') { 
                     $('#uploadStatus').html('NO FILE ENTERED');
-                    $('#uploadStatus').css('color', 'rgb(204, 30, 30)');
+                    $('#uploadStatus').css({'background-color': 'rgb(204, 30, 30)', 'color': 'white'});
                 }
                 else {
                     let parsedData = JSON.parse(data);
@@ -28,8 +28,8 @@ $(document).ready(function() {
                         return 0;
                     });
                     processMemberData(parsedData);
-                    $('#uploadStatus').html('Done!');
-                    $('#uploadStatus').css('color', 'rgb(49, 255, 83)');
+                    $('#uploadStatus').html('Done!');     
+                    $('#uploadStatus').css({'background-color': 'rgb(49, 255, 83)', 'color': 'black'});
                 }
                 
             },
@@ -102,7 +102,7 @@ $(document).ready(function() {
         return tabElem_1 + tabElem_table + tabElem_2;
     }
     $('#memberSection').click(function(e) {
-        let targetTable = $($($(e.target).parents('.memberInfo')[0]).children('.memberTable')[0]).children('.appTable')[0];
+        let targetTable = $($(e.target).parents('.memberInfo')[0]).children('.memberTable')[0];
         $(targetTable).fadeToggle();
     })
 });

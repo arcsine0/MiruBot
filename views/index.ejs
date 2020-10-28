@@ -9,21 +9,23 @@
 
     </head>
     <body id="body">
-        <div id="intro" class="container">
-            <div id="titleName">MiruBot</div>
-            <div id="titleDesc">Google Meet Transcript Analyzer Bot</div>
-        </div>
-        <div id="fileUpload">
-            <div>Upload .SBV Transcript File</div>
-            <form id="form" action="/upload" method="POST" enctype="multipart/form-data">
-                <input type="file" id="logFile" name="logFile" />
-                <input type="submit" id="submit" value="Upload!" />
-            </form>
-            <div id="uploadStatus">___________</div>
-        </div>
-        <div id="results">
-            <div id="memberSection">
-
+        <div id="bgCard">
+            <div id="intro" class="container">
+                <div id="titleName">MiruBot</div>
+                <div id="titleDesc">Google Meet Transcript Analyzer Bot</div>
+            </div>
+            <div id="fileUpload">
+                <div id="uploadTitle">Upload .SBV Transcript File</div>
+                <form id="form" action="/upload" method="POST" enctype="multipart/form-data">
+                    <input type="file" id="logFile" name="logFile" />
+                    <input type="submit" id="submit" value="Upload!" />
+                </form>
+                <div id="uploadStatus">___________</div>
+            </div>
+            <div id="results">
+                <div id="memberSection">
+    
+                </div>
             </div>
         </div>
     </body>
