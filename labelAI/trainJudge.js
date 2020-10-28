@@ -9,8 +9,7 @@ let options = {
     input: data,
     output: model,
     loss: 'softmax',
-    label: '_label_',
-    epoch: 25
+    label: '_label_'
 }
 
 classifier.train('supervised', options)

@@ -35,6 +35,10 @@ html, body {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     user-select: none;
+    transition: all 0.25s ease-in-out;
+}
+.memberName:hover {
+    background-color: rgb(2, 122, 76);
 }
 .scoreBox {
     border: rgb(214, 214, 214) 5px solid;

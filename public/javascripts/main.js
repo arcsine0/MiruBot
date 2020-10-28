@@ -2,6 +2,12 @@ $(document).ready(function() {
     $('form').submit(function(e) {
         console.log('uploading file...');
         e.preventDefault();
+
+        $('#memberSection').empty();
+        $('#uploadStatus').html('...working file');
+        $('#uploadStatus').css('color', 'rgb(252, 255, 58)');
+
+        // send file to server
         var fileData = new FormData(this);
         $.ajax({
             url: '/upload',
@@ -10,7 +16,10 @@ $(document).ready(function() {
             contentType: false,
             data: fileData,
             success: (data) => {
-                if (data === 'NO DATA') { console.log('no data entered!'); }
+                if (data === 'NO DATA') { 
+                    $('#uploadStatus').html('NO FILE ENTERED');
+                    $('#uploadStatus').css('color', 'rgb(204, 30, 30)');
+                }
                 else {
                     let parsedData = JSON.parse(data);
                     parsedData.sort((a, b) => {
@@ -19,6 +28,8 @@ $(document).ready(function() {
                         return 0;
                     });
                     processMemberData(parsedData);
+                    $('#uploadStatus').html('Done!');
+                    $('#uploadStatus').css('color', 'rgb(49, 255, 83)');
                 }
                 
             },
@@ -54,15 +65,15 @@ $(document).ready(function() {
             switch(el[2]) {
                 case 'affirmation': affirm++; scoreChange = '+5'; break;
                 case 'negation': negate++; scoreChange = '+5'; break;
-                case 'laughReaction': laugh++; scoreChange = '+2.5'; break;
-                case 'present': present++; scoreChange = '+1'; break;
+                case 'laughReaction': laugh++; scoreChange = '+2'; break;
+                case 'greeting': present++; scoreChange = '+3'; break;
                 case 'PossiblyRelatedFeedback': relatedReplies++; scoreChange = '+10'; break;
-                default: other++; scoreChange = '+0'; break;
+                default: other++; scoreChange = '+1'; break;
             }
             tabElem_table += `<tr><td>${el[1]}</td><td>${el[2]}</td><td style="text-align: center;">${scoreChange}</td></tr>`;
         })
         let totalMessages = affirm + negate + laugh + present + relatedReplies + other;
-        let totalScore = (relatedReplies * 10) + ((affirm + negate) * 5) + (laugh * 2.5) + present;
+        let totalScore = (relatedReplies * 10) + ((affirm + negate) * 5) + (laugh * 2) + (present * 3) + other;
         console.log(totalScore);
 
         let memberID = 'member#' + i.toString();

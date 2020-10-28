@@ -1,6 +1,5 @@
 const express = require('express');
 const multer = require('multer');
-const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
 const { Readable } = require('stream');
@@ -9,14 +8,6 @@ const { judge } = require('../labelAI/judge');
 
 var router = express.Router();
 
-// var storage = multer.diskStorage({
-//     destination: function(req, file, cb) {
-//         cb(null, path.join(__dirname, '../uploads/'));
-//     },
-//     filename: function(req, file, cb) {
-//         cb(null, 'chatLog' + Date.now() + '.sbv');
-//     }
-// })
 var upload = multer({ storage: multer.memoryStorage() });   
 
 function bufferToStream(buffer) {

@@ -1,43 +1,52 @@
-_label_test this is a test run
-_label_test i am currently running a test
-_label_test mic test hello?
-_label_test end of current test
-_label_present i am present
-_label_present present po mam
-_label_present present po sir
-_label_present goodmorning present po
-_label_present present po sorry late
-_label_present im here
-_label_present i am here po sir
+_label_other this is a test run
+_label_other i am currently running a test
+_label_other mic test hello?
+_label_other end of current test
 _label_introduction hello my name is
 _label_introduction i am from 
 _label_introduction you can call me
-_label_greeting goodmorning sir
+_label_greeting present  mam
+_label_greeting im here am present
 _label_greeting good morning
-_label_greeting goodafternoon po mam
+_label_greeting goodafternoon  mam
 _label_greeting have a nice day!
-_label_affirmation okay sir
-_label_affirmation oki po 
+_label_greeting hi
+_label_greeting hello
+_label_greeting hey
+_label_greeting good morning
+_label_greeting mornin
+_label_greeting good afternoon
+_label_greeting good evening
+_label_greeting greetings
+_label_greeting good to see you
+_label_greeting greeting
+_label_greeting how're you
+_label_affirmation okay 
+_label_affirmation oki na  
 _label_affirmation ok ok
-_label_affirmation tama po 
-_label_affirmation yes sir
-_label_affirmation yes po mam
+_label_affirmation yes yez yaz true
 _label_affirmation i agree
 _label_affirmation i do agree on that notion
 _label_affirmation i have the same opinion
 _label_affirmation yup same
 _label_affirmation kinda true
 _label_affirmation opo
-_label_negation no po sir
-_label_negation no po mam
+_label_affirmation Yes it does
+_label_negation no 
+_label_negation no mam
 _label_negation i disagree
 _label_negation nah
 _label_negation nope
-_label_negation mali po 
+_label_negation mali 
+_label_negation No it has to have a Mac that runs on power pc not Intel processors
+_label_negation No because it's not a listening course. It really is something you must read and take notes on so in this case, for the purpose that you're looking for, this product would not suit. However, I can suggest something for you that you may also buy on Amazon. Even though Human Japanese is an AWESOME learning tool, if you're wanting to play something in your sleep to help you tune in to the way a native speaker talks, buy yourself a book called Read Real Japanese. There is an audio CD that comes with this book wherein the stories are read. You can get a real good sense of speech speed as well as start getting used to picking out words you know. it's a great sleep tool because it's interesting enough without being droning lessons and you'll start to feel yourself compelled to pick apart the speech and translations. So both products are good but Read Real Japanese is the one I'd recommend for the purposes you're aiming for and keep Human Japanese for the thing you tinker with on weekends between classes or get it on your kindle so you can read through it on the go.
 _label_laughReaction HAHAHAHAH
+_label_laughReaction HAHA
+_label_laughReaction hahahahaha
+_label_laughReaction hahahaha
 _label_laughReaction hahahah
 _label_laughReaction haha
-_label_laughReaction so funny sir
+_label_laughReaction so funny 
 _label_laughReaction that's hilarious
 _label_laughReaction LMAO
 _label_laughReaction LOL 
