@@ -49,6 +49,9 @@ html, body {
     letter-spacing: 10px;
     user-select: none;
 }
+#hint {
+    display: none;
+}
 .memberName {
     text-align: center;
     padding: 1rem;
@@ -107,10 +110,10 @@ td {
 
 /* animations */
 .elastic {
-    animation: elastic 1s ease-in-out forwards;
+    animation: elastic 1s ease-out forwards;
 }
 @keyframes elastic {
-    0% { transform: translateX(-100%); opacity: 0; }
-    40% { transform: translateX(10%); }
-    100% { transform: translateX(0); opacity: 1; }
+    0% { transform: translateY(-20%); opacity: 0; }
+    75% { transform: translateY(10%); }
+    100% { transform: translateY(0); opacity: 1; }
 } 

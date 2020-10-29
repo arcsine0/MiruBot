@@ -41,9 +41,15 @@ router.post('/upload', upload.single('logFile'), async function(req, res, next) 
                 }
             }
         }).on('close', async function () {
+            let prevSender = '';
             tempArr.forEach(function (e, i) {
-                var line = e.split(':');
-                chatArr.push([line[0], line[1]]);
+                var line = e.split(/:(.*)/);
+                if (line.length < 2) {
+                    chatArr.push([prevSender, line[0]]);
+                } else {
+                    chatArr.push([line[0], line[1]]);
+                }
+                prevSender = line[0];
             });
             let temp = chatArr.map(async function (e) {
                 let judgement = await judge(e[1]);

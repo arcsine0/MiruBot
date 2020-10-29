@@ -30,6 +30,7 @@ $(document).ready(function() {
                     processMemberData(parsedData);
                     $('#uploadStatus').html('Done!');     
                     $('#uploadStatus').css({'background-color': 'rgb(49, 255, 83)', 'color': 'black'});
+                    $('#hint').fadeIn(1000);
                 }
                 
             },
