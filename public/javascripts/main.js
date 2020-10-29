@@ -91,7 +91,7 @@ $(document).ready(function() {
                         <thead>
                             <tr>
                                 <th scope="col">Message</th>
-                                <th scope="col">Judgement</th>
+                                <th scope="col">MiruBot's Judgement</th>
                                 <th scope="col" style="text-align: center;">Score</th>
                             </tr>
                         </thead>
