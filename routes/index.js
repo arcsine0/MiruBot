@@ -5,7 +5,7 @@ const readline = require('readline');
 // const nodemailer = require('nodemailer');
 const { Readable } = require('stream');
 
-const { judge } = require('../labelAI/model/judge');
+const { judge } = require('../labelAI/judge');
 
 var router = express.Router();
 
