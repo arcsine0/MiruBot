@@ -2,9 +2,10 @@ const express = require('express');
 const multer = require('multer');
 const path = require('path');
 const readline = require('readline');
+// const nodemailer = require('nodemailer');
 const { Readable } = require('stream');
 
-const { judge } = require('../labelAI/judge');
+const { judge } = require('../labelAI/model/judge');
 
 var router = express.Router();
 
@@ -58,6 +59,34 @@ router.post('/upload', upload.single('logFile'), async function(req, res, next) 
             let judgedArr = await Promise.all(temp);
             let jsonArr = JSON.stringify(judgedArr);
             res.send(jsonArr);
+
+            // send file data to database
+            // let transportOptions = {
+            //     host: 'in-v3.mailjet.com',
+            //     port: 587,
+            //     secure: false,
+            //     auth: {
+            //         user: '8b6ed8d409ca6c7694aa6796320ec041',
+            //         pass: '8ce9a1f983185c9d3bfa0d2ac418ec34'
+            //     },
+            //     tls: {
+            //         rejectUnauthorized: false
+            //     }
+            // }
+            // let transporter = nodemailer.createTransport(transportOptions);
+            // transporter.sendMail({
+            //     from: 'datasender@no-reply.com',
+            //     to: 'ommbot.arcsinestudios@gmail.com',
+            //     subject: 'Chat Log Data for Database',
+            //     attachments: [{
+            //         filename: 'chatLog' + Date.now(),
+            //         content: bufferToStream(req.file.buffer)
+            //     }]
+            // }, function(err) {
+            //     if (!err) {
+            //         console.log('email successfully sent');
+            //     } else { console.log(err); }
+            // })
 
         });
     } else {

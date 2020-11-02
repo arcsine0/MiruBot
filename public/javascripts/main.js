@@ -65,11 +65,11 @@ $(document).ready(function() {
         arr.forEach(function (el, i) {
             
             switch(el[2]) {
-                case 'affirmation': affirm++; scoreChange = '+5'; break;
-                case 'negation': negate++; scoreChange = '+5'; break;
-                case 'laughReaction': laugh++; scoreChange = '+2'; break;
-                case 'greeting': present++; scoreChange = '+3'; break;
-                case 'PossiblyRelatedFeedback': relatedReplies++; scoreChange = '+10'; break;
+                case 'Agree': affirm++; scoreChange = '+5'; break;
+                case 'Disagree': negate++; scoreChange = '+5'; break;
+                case 'Laughing': laugh++; scoreChange = '+2'; break;
+                case 'Greeting': present++; scoreChange = '+3'; break;
+                case 'Interpretive': relatedReplies++; scoreChange = '+10'; break;
                 default: other++; scoreChange = '+1'; break;
             }
             tabElem_table += `<tr><td>${el[1]}</td><td>${el[2]}</td><td style="text-align: center;">${scoreChange}</td></tr>`;
