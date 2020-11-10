@@ -82,7 +82,7 @@ html, body {
     font-size: 150%;
 }
 .memberTable {
-    
+    display: block;
 }
 .appTable {
     width: 100%;
