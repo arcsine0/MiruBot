@@ -18,7 +18,7 @@ _label_Feedback_Agree kinda true
 _label_Feedback_Agree opo like that
 _label_Feedback_Agree Yes po ms
 _label_Feedback_Agree yaz yep yup yeah ye po
-_label_Feedback_Agree clear po
+_label_Feedback_Agree clear po yep
 _label_Feedback_Agree somewhat somehow
 _label_Feedback_Disagree di po hindi 
 _label_Feedback_Disagree no mam
