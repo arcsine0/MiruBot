@@ -8,9 +8,10 @@ const classifier = new fastText.Classifier(model);
 module.exports.judge = async function(string) {
     let response = await classifier.predict(string, 1);
     if (response.length > 0) {
-        return response[0].label.replace('_label_', '');
+        let judgeString  = response[0].label.replace('_label_', '');
+        return judgeString;
     } else {
-        return 'no matches';
+        return 'No Matches';
     }
     
 }

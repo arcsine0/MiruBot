@@ -60,22 +60,23 @@ $(document).ready(function() {
         $('#memberSection').append(formElement(memberData, memberIndex));
     }
     function formElement(arr, i) {
-        let affirm = 0, negate = 0, laugh = 0, present = 0, relatedReplies = 0, other = 0, scoreChange;
+        let affirm = 0, negate = 0, laugh = 0, present = 0, relatedReplies = 0, question = 0, other = 0, scoreChange;
         let tabElem_table = ``;
         arr.forEach(function (el, i) {
             
             switch(el[2]) {
-                case 'Agree': affirm++; scoreChange = '+5'; break;
-                case 'Disagree': negate++; scoreChange = '+5'; break;
-                case 'Laughing': laugh++; scoreChange = '+2'; break;
-                case 'Greeting': present++; scoreChange = '+3'; break;
-                case 'Interpretive': relatedReplies++; scoreChange = '+10'; break;
+                case 'Feedback_Agree': affirm++; scoreChange = '+5'; break;
+                case 'Feedback_Disagree': negate++; scoreChange = '+5'; break;
+                case 'Reaction_Laughing': laugh++; scoreChange = '+2'; break;
+                case 'Introductory_Greeting': present++; scoreChange = '+3'; break;
+                case 'Feedback_Question': question++; scoreChange = '+7.5'; break;
+                case 'Feedback_Interpretive': relatedReplies++; scoreChange = '+10'; break;
                 default: other++; scoreChange = '+1'; break;
             }
             tabElem_table += `<tr><td>${el[1]}</td><td>${el[2]}</td><td style="text-align: center;">${scoreChange}</td></tr>`;
         })
-        let totalMessages = affirm + negate + laugh + present + relatedReplies + other;
-        let totalScore = (relatedReplies * 10) + ((affirm + negate) * 5) + (laugh * 2) + (present * 3) + other;
+        let totalMessages = affirm + negate + laugh + present + relatedReplies + question + other;
+        let totalScore = (relatedReplies * 10) + (question * 7.5) +((affirm + negate) * 5) + (laugh * 2) + (present * 3) + other;
         console.log(totalScore);
 
         let memberID = 'member#' + i.toString();
@@ -109,4 +110,3 @@ $(document).ready(function() {
         $(targetTable).fadeToggle();
     })
 });
-

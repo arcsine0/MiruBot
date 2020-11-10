@@ -1,81 +1,74 @@
-_label_other this is a test run
-_label_other i am currently running a test
-_label_other mic test hello?
-_label_other end of current test
-_label_Introduction hello my name is
-_label_Introduction i am from 
-_label_Introduction you can call me
-_label_Greeting present  mam
-_label_Greeting im here am present
-_label_Greeting good morning
-_label_Greeting goodafternoon  mam
-_label_Greeting have a nice day!
-_label_Greeting hi
-_label_Greeting hello
-_label_Greeting hey
-_label_Greeting good morning
-_label_Greeting mornin
-_label_Greeting good afternoon
-_label_Greeting good evening
-_label_Greeting greetings
-_label_Greeting good to see you
-_label_Greeting greeting
-_label_Greeting how're you
-_label_Agree okay 
-_label_Agree oki na  
-_label_Agree ok ok
-_label_Agree yes yez yaz true
-_label_Agree i agree
-_label_Agree i do agree on that notion
-_label_Agree i have the same opinion
-_label_Agree yup same
-_label_Agree kinda true
-_label_Agree opo
-_label_Agree Yes it does
-_label_Agree yaz 
-_label_Agree clear po
-_label_Agree somewhat somehow
-_label_Disagree no 
-_label_Disagree no mam
-_label_Disagree i disagree
-_label_Disagree nah
-_label_Disagree nope nop 
-_label_Disagree nope that's wrong
-_label_Disagree it's not you 
-_label_Disagree mali 
-_label_Disagree No it has to have a Mac that runs on power pc not Intel processors
-_label_Disagree No because it's not a listening course. It really is something you must read and take notes on so in this case, for the purpose that you're looking for, this product would not suit. However, I can suggest something for you that you may also buy on Amazon. Even though Human Japanese is an AWESOME learning tool, if you're wanting to play something in your sleep to help you tune in to the way a native speaker talks, buy yourself a book called Read Real Japanese. There is an audio CD that comes with this book wherein the stories are read. You can get a real good sense of speech speed as well as start getting used to picking out words you know. it's a great sleep tool because it's interesting enough without being droning lessons and you'll start to feel yourself compelled to pick apart the speech and translations. So both products are good but Read Real Japanese is the one I'd recommend for the purposes you're aiming for and keep Human Japanese for the thing you tinker with on weekends between classes or get it on your kindle so you can read through it on the go.
-_label_Disagree nooooo
-_label_Disagree nopes
-_label_Disagree false 
-_label_Laughing HAHAHAHAH
-_label_Laughing HAHA
-_label_Laughing hahahahaha
-_label_Laughing hahahaha
-_label_Laughing hahahah
-_label_Laughing haha
-_label_Laughing so funny 
-_label_Laughing that's hilarious
-_label_Laughing LMAO
-_label_Laughing LOL 
-_label_link https://forms.gle/xB9anp8tiDAjm62C9
-_label_Interpretive addition is one of the basic operations
-_label_Interpretive subtraction is another operation in mathematics
-_label_Interpretive well it does make sense scientifically speaking
-_label_Interpretive science says that it's not possible
-_label_Interpretive most scientists conclude that physics is a naturally occurring concept
-_label_Interpretive i heard in the news that something happened last night
-_label_Interpretive oh i saw that person in the news before
-_label_Interpretive politics politicians theories concepts
-_label_Interpretive sorry i am bad at that subject
-_label_Interpretive mathematics is pretty difficult for me 
-_label_Interpretive this is interesting
-_label_Interpretive ive been to art in island once
-_label_Interpretive crazy katsu is gone na ata ma'am
-_label_Interpretive Maam some film critics say that they have better visual effects then some films being released today 
-_label_Interpretive Ah that was also because George Lucas's wife died po, she was the one who stopped him from going overboard 
-_label_Interpretive i used to study near a school near the college building of CIIT and we were on Jamboree street so we started talking about the lore one time when we had no classes
-_label_Interpretive nah its actualy cool to do just so i have an excuse to play minecraft (games) 
-_label_Interpretive I mean themes in the map are connected to real life countries / continents 
-
-
+_label_Introductory_Greeting present teacher
+_label_Introductory_Greeting im here am present
+_label_Introductory_Greeting good morning goodmorning goodafternoon good afternoon mornin
+_label_Introductory_Greeting have a nice day!
+_label_Introductory_Greeting hi hello hey 
+_label_Introductory_Greeting greetings 
+_label_Introductory_Greeting good to see you
+_label_Introductory_Greeting how're you
+_label_Feedback_Agree okay yess tama tama preach 
+_label_Feedback_Agree oki na  
+_label_Feedback_Agree ok ok
+_label_Feedback_Agree yes yez yaz true yea
+_label_Feedback_Agree i am agreeing on that I agree
+_label_Feedback_Agree i do agree on that notion
+_label_Feedback_Agree i have the same opinion
+_label_Feedback_Agree yup same
+_label_Feedback_Agree kinda true
+_label_Feedback_Agree opo like that
+_label_Feedback_Agree Yes po ms
+_label_Feedback_Agree yaz yep yup yeah ye po
+_label_Feedback_Agree clear po
+_label_Feedback_Agree somewhat somehow
+_label_Feedback_Disagree di po hindi 
+_label_Feedback_Disagree no mam
+_label_Feedback_Disagree i disagree
+_label_Feedback_Disagree nah not 
+_label_Feedback_Disagree nope nop 
+_label_Feedback_Disagree nope that's wrong
+_label_Feedback_Disagree it's not you 
+_label_Feedback_Disagree mali po
+_label_Feedback_Disagree No it has to have a Mac that runs on power pc not Intel processors
+_label_Feedback_Disagree No because it's not a listening course. It really is something you must read and take notes on so in this case, for the purpose that you're looking for, this product would not suit. However, I can suggest something for you that you may also buy on Amazon. Even though Human Japanese is an AWESOME learning tool, if you're wanting to play something in your sleep to help you tune in to the way a native speaker talks, buy yourself a book called Read Real Japanese. There is an audio CD that comes with this book wherein the stories are read. You can get a real good sense of speech speed as well as start getting used to picking out words you know. it's a great sleep tool because it's interesting enough without being droning lessons and you'll start to feel yourself compelled to pick apart the speech and translations. So both products are good but Read Real Japanese is the one I'd recommend for the purposes you're aiming for and keep Human Japanese for the thing you tinker with on weekends between classes or get it on your kindle so you can read through it on the go.
+_label_Feedback_Disagree nooooo i don't do that
+_label_Feedback_Disagree nopes hell naw
+_label_Feedback_Disagree false it's not like that
+_label_Feedback_Interpretive addition is one of the basic operations
+_label_Feedback_Interpretive subtraction is another operation in mathematics
+_label_Feedback_Interpretive well it does make sense scientifically speaking
+_label_Feedback_Interpretive science says that it's not possible
+_label_Feedback_Interpretive most scientists conclude that physics is a naturally occurring concept
+_label_Feedback_Interpretive i heard in the news that something happened last night
+_label_Feedback_Interpretive oh i saw that person in the news before
+_label_Feedback_Interpretive politics politicians theories concepts
+_label_Feedback_Interpretive sorry i am bad at that subject
+_label_Feedback_Interpretive mathematics is pretty difficult for me 
+_label_Feedback_Interpretive this is interesting
+_label_Feedback_Interpretive ive been to art in island once
+_label_Feedback_Interpretive crazy katsu is gone na ata ma'am
+_label_Feedback_Interpretive Maam some film critics say that they have better visual effects then some films being released today 
+_label_Feedback_Interpretive Ah that was also because George Lucas's wife died po, she was the one who stopped him from going overboard 
+_label_Feedback_Interpretive i used to study near a school near the college building of CIIT and we were on Jamboree street so we started talking about the lore one time when we had no classes
+_label_Feedback_Interpretive nah its actualy cool to do just so i have an excuse to play minecraft (games) 
+_label_Feedback_Interpretive I mean themes in the map are connected to real life countries / continents 
+_label_Feedback_Interpretive What I am saying is that it matters in this context 
+_label_Feedback_Question is it just me or is miss frozen?
+_label_Feedback_Question miss is still explaining?
+_label_Feedback_Question can anyone hear me? ????
+_label_Feedback_Question are there any questions?
+_label_Feedback_Question miss am i doing this right?? ?
+_label_Feedback_Question do we need to add citations?
+_label_Feedback_Question anyone else having internet issues? ? 
+_label_Feedback_Question how do i do this activity?
+_label_Feedback_Question can we do it like this? ???
+_label_Feedback_Question when is the deadline sir? ?
+_label_Reaction_Laughing HAHAHAHAH hahaha
+_label_Reaction_Laughing HAHA lol
+_label_Reaction_Laughing hahahahaha hahah
+_label_Reaction_Laughing hahahaha hahahah
+_label_Reaction_Laughing hahahah ha
+_label_Reaction_Laughing haha hahaahahaah
+_label_Reaction_Laughing so funny 
+_label_Reaction_Laughing that's hilarious
+_label_Reaction_Laughing LMAO that is good tho
+_label_Reaction_Laughing LOL right

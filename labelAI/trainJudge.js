@@ -8,8 +8,9 @@ let classifier = new fastText.Classifier();
 let options = {
     input: data,
     output: model,
+    lr: 0.1,
     loss: 'softmax',
-    label: '_label_'
+    label: '_label_',
 }
 
 classifier.train('supervised', options)
